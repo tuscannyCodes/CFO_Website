@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+}
+/*LOGO*/
+
+#logo {
+  margin-top: -35px;
+  width: 280px; /*logo sizing*/
+}
+/*LOGO END*/
+
+/*MAIN NAVIGATION */
+
+#mainHeader {
+  /*nav background div */
+  background-color: darkorange;
+  height: 20vh;
+  padding: 50px;
+}
+
+#headerUl {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+  font-family: "Barlow", sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-top: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.links:hover {
+  color: black;
+  scale: 1.3;
+  transition: all 0.5s ease;
+}
+/*MAIN NAVIGATION END*/
+
+/*HERO SECTION*/
+#heroTextMainContainer {
+  display: flex;
+  flex-direction: row;
+
+  align-content: right;
+  justify-content: right;
+  padding: 50px;
+}
+.heroText {
+  display: flex;
+  font-size: 100px;
+  margin-left: 10px;
+  font-family: "Barlow", sans-serif;
+  width: 1000px;
+  float: left;
+}
+
+#heroTextContainer {
+  height: 650px;
+}
+/*HERO SECTION END*/
+
+/*CONTENT SECTION 1*/
+#aboutUsContainer {
+  display: flex;
+
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+  background-color: darkorange;
+  height: 100vh;
+  width: 100vw;
+}
+
+#aboutUs {
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+.generalText {
+  /*p style*/
+  color: azure;
+  font-size: 30px;
+  font-family: "Barlow", sans-serif;
+  text-align: left;
+  width: 500px;
+}
+
+.boldText {
+  /*h1 style*/
+  color: azure;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  text-align: left;
+  width: 800px;
+}
+
+#contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+  background-color: azure;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 0;
+}
+/*CONTENT SECTION 1 END*/
+
+/*CONTENT SECTION 2*/
+
+#contentContainer2 {
+  display: flex;
+
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+  background-color: azure;
+  height: 100vh;
+  width: 100vw;
+}
+#content2 {
+  margin-top: 100px;
+  margin-left: -400px;
+}
+.generalText2 {
+  /*p style*/
+  color: black;
+  font-size: 30px;
+  font-family: "Barlow", sans-serif;
+  text-align: left;
+  width: 500px;
+}
+
+.boldText2 {
+  /*h1 style*/
+  color: darkorange;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  text-align: left;
+  width: 800px;
+}
+/*CONTENT SECTION 2 END*/
+#contentContainer3 {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+  background-color: darkorange;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 0;
+}
+
+.generalText3 {
+  /*p style*/
+  color: azure;
+  font-size: 30px;
+  font-family: "Barlow", sans-serif;
+  text-align: left;
+  width: 500px;
+}
+
+.boldText3 {
+  /*h1 style*/
+  color: azure;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  text-align: left;
+  width: 800px;
+}
+
+/*FOOTER*/
+#footerDiv {
+  display: flex;
+  background-color: rgb(44, 44, 44);
+  height: 10vh;
+  width: 100vw;
+  font-size: 3rem;
+}
+
+#meetupIcon {
+  display: flex;
+  color: white;
+  margin-left: 70px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+#footerUl {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  justify-content: space-between;
+  width: 40vw;
+  font-size: 15px;
+  display: flex;
+  color: white;
+  padding: 25px;
+  list-style: none;
+}
+
+/*FOOTER END*/
