@@ -88,8 +88,8 @@ body {
 }
 
 #aboutUs {
-  margin-top: 100px;
-  margin-left: 700px;
+  margin-top: 200px;
+  margin-left: 600px;
 }
 
 .generalText {
@@ -169,6 +169,10 @@ body {
   margin-left: 0;
 }
 
+#content3 {
+  margin-top: 100px;
+  margin-left: 600px;
+}
 .generalText3 {
   /*p style*/
   color: azure;
