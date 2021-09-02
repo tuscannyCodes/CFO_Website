@@ -14,9 +14,9 @@ body {
 }
 /*LOGO END*/
 
-/*MAIN NAVIGATION */
+/*MAIN NAVIGATION------------------------------ */
 
-#mainHeader {
+#mainNavigation {
   /*nav background div */
   background-color: darkorange;
   height: 20vh;
@@ -50,7 +50,7 @@ body {
   scale: 1.3;
   transition: all 0.5s ease;
 }
-/*MAIN NAVIGATION END*/
+/*MAIN NAVIGATION END------------------------------*/
 
 /*HERO SECTION*/
 #heroTextMainContainer {
@@ -73,12 +73,11 @@ body {
 #heroTextContainer {
   height: 650px;
 }
-/*HERO SECTION END*/
+/*HERO SECTION END------------------------------*/
 
-/*CONTENT SECTION 1*/
-#aboutUsContainer {
+/*EVENTS SECTION------------------------------*/
+#eventsContainer {
   display: flex;
-
   align-items: center;
   justify-content: right;
   flex-direction: column;
@@ -87,7 +86,7 @@ body {
   width: 100vw;
 }
 
-#aboutUs {
+#eventsSection {
   margin-top: 200px;
   margin-left: 600px;
 }
@@ -111,7 +110,11 @@ body {
   width: 800px;
 }
 
-#contentContainer {
+/*EVENTS SECTION END------------------------------*/
+
+/*ABOUT US SECTION------------------------------*/
+
+#aboutUsContainer {
   display: flex;
   align-items: center;
   justify-content: right;
@@ -119,23 +122,8 @@ body {
   background-color: azure;
   height: 100vh;
   width: 100vw;
-  margin-left: 0;
 }
-/*CONTENT SECTION 1 END*/
-
-/*CONTENT SECTION 2*/
-
-#contentContainer2 {
-  display: flex;
-
-  align-items: center;
-  justify-content: right;
-  flex-direction: column;
-  background-color: azure;
-  height: 100vh;
-  width: 100vw;
-}
-#content2 {
+#aboutUsSection {
   margin-top: 100px;
   margin-left: -400px;
 }
@@ -157,8 +145,11 @@ body {
   text-align: left;
   width: 800px;
 }
-/*CONTENT SECTION 2 END*/
-#contentContainer3 {
+/*ABOUT US SECTION END------------------------------*/
+
+/*CONTACT US SECTION------------------------------*/
+
+#contactUsContainer {
   display: flex;
   align-items: center;
   justify-content: right;
@@ -169,17 +160,9 @@ body {
   margin-left: 0;
 }
 
-#content3 {
+#contactUsSection {
   margin-top: 100px;
   margin-left: 600px;
-}
-.generalText3 {
-  /*p style*/
-  color: azure;
-  font-size: 30px;
-  font-family: "Barlow", sans-serif;
-  text-align: left;
-  width: 500px;
 }
 
 .boldText3 {
@@ -192,7 +175,9 @@ body {
   width: 800px;
 }
 
-/*FOOTER*/
+/*CONTACT US SECTION END------------------------------*/
+
+/*FOOTER------------------------------*/
 #footerDiv {
   display: flex;
   background-color: rgb(44, 44, 44);
@@ -222,4 +207,4 @@ body {
   list-style: none;
 }
 
-/*FOOTER END*/
+/*FOOTER END------------------------------*/
