@@ -9,7 +9,7 @@ body {
 /*LOGO*/
 
 #logo {
-  margin-top: -35px;
+  margin-top: -25px;
   width: 280px; /*logo sizing*/
 }
 /*LOGO END*/
@@ -29,6 +29,7 @@ body {
   float: right;
   justify-content: space-between;
   width: 60vw;
+  margin-right: 90px;
 }
 
 .links {
@@ -40,7 +41,7 @@ body {
   font-family: "Barlow", sans-serif;
   color: white;
   font-size: 25px;
-  margin-top: 15px;
+  margin-top: 25px;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -89,10 +90,12 @@ body {
 #eventsSection {
   margin-top: 200px;
   margin-left: 600px;
+  width: 500px;
 }
 
 .generalText {
   /*p style*/
+
   color: azure;
   font-size: 30px;
   font-family: "Barlow", sans-serif;
@@ -163,6 +166,7 @@ body {
 #contactUsSection {
   margin-top: 100px;
   margin-left: 600px;
+  width: 400px;
 }
 
 .boldText3 {
