@@ -87,6 +87,13 @@ body {
 /*HERO SECTION END------------------------------*/
 
 /*EVENTS SECTION------------------------------*/
+#eventsImg {
+  margin-left: -400px;
+  margin-top: 150px;
+  position: absolute;
+  height: 500px;
+}
+
 #eventsContainer {
   display: flex;
   align-items: center;
@@ -168,6 +175,13 @@ body {
 /*ABOUT US SECTION END------------------------------*/
 
 /*CONTACT US SECTION------------------------------*/
+
+#contactUsImg {
+  margin-left: -400px;
+  margin-top: 150px;
+  position: absolute;
+  height: 500px;
+}
 
 #contactUsContainer {
   display: flex;
