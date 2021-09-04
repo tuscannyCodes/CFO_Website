@@ -65,6 +65,7 @@ body {
 
 /*HERO SECTION*/
 #heroTextMainContainer {
+  background-color: red;
   display: flex;
   flex-direction: row;
 
@@ -155,6 +156,7 @@ body {
   margin-left: -400px;
 }
 .generalText2 {
+  /*needs responsive */
   /*p style*/
   color: black;
   font-size: 30px;
@@ -164,6 +166,7 @@ body {
 }
 
 .boldText2 {
+  /*needs responsive */
   /*h1 style*/
   color: black;
   font-size: 70px;
