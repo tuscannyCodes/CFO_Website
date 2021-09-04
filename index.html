@@ -2,128 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code for Orlando</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TestCFO</title>
 
-    <!--FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-    <!--FONTS END-->
 
-    <!--ICONS-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <!--ICONS END-->
-
-    <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-    <!--NAVIGATION SECTION-->
-    <nav id="mainNavigation">
-        <img id="logo" src="images/CFO_logo.png">
-        <ul id="headerUl">
-            <li class="links">HOME</li>
-            <!--Nacigation will have to ch for responsive-->
-            <li class="links">EVENTS</li>
-            <li class="links">ABOUT US</li>
-            <li class="links">CONTACT</li>
+    <nav>
+        
+        <ul>
+            <li><img src="images/CFO_logo.png"></li>
+            <li><a href="http://google.com">HOME</a></li>
+            <li><a href="http://google.com">EVENTS</a></li>
+            <li><a href="http://google.com">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="http://google.com">CONDUCT</a></li>
+
         </ul>
     </nav>
-    <!--NAVIGATION SECTION END-->
 
-    <!--HERO SECTION-->
-    <section class="info-sections"id="heroTextMainContainer">
-        <!-- for formatting only -->
-        <div id="heroTextContainer">
+    <section class="info-section split-section">
+        <div class="split center">
             <h1 class="heroText">
                 < A community searching for technological solutions to social challenges>
             </h1>
-
-            <img class="characters" src="images/person2_Sketch.png">
+        </div>
+        <div class="split"><img src="images/person2_Sketch.png" /></div>
+    </section>
+    <section class="info-section split-section">
+        <div class="split center">
+            <h1>EVENTS</h1>
+            <p class="generalText">
+                Meeting with local developers (or anyone interested in web develoment)
+                is an essiential part of what makes us special. We cherish community,
+                and enjoy fostering a unique culture of creatives, developers and
+                individuals interested in tech. Join us on Meetup for upcoming events
+                and online meetings.
+            </p>
+        </div>
+        <div class="split"><img src="images/events.png" /></div>
         </div>
     </section>
-    <!--HERO SECTION END-->
-
-    <!--EVENTS SECTION-->
-    <div class="info-sections"id="eventsMainContainer">
-        <!-- for formatting only -->
-        <div id="eventsContainer">
-            <section id="eventsSection">
-                <h1 class="boldText">EVENTS</h1>
-                <p class="generalText">
-                    Meeting with local developers (or anyone interested in web develoment) is an essiential part of what
-                    makes us special. We cherish community, and enjoy fostering a unique culture of creatives,
-                    developers and individuals interested in tech. Join us on Meetup for upcoming events and online
-                    meetings.
-                </p>
-            </section>
-            <img id="eventsImg" src="images/events.png">
+    <section class="info-section split-section">
+        <div class="split center">
+            <h1>ABOUT US</h1>
+            <p class="generalText">
+                Code for Orlando, a local Code for America brigade, brings the
+                community together to improve Orlando through technology. We are a
+                group of “civic hackers” from various disciplines who are committed to
+                volunteering our talents to make a difference. We unite to improve the
+                way residents and local government experience Orlando.
+            </p>
         </div>
-        <!--EVENTS SECTION END-->
-
-        <!--ABOUT US SECTION-->
-        <div class="info-sections"id="aboutUsMainContainer">
-            <!-- for formatting only -->
-
-            <div id="aboutUsContainer">
-                <section id="aboutUsSection">
-                    <h1 class="boldText2">ABOUT US</h1>
-                    <p class="generalText2">
-                        Code for Orlando, a local Code for America brigade, brings the community together to improve
-                        Orlando through technology. We are a group of “civic hackers” from various disciplines who are
-                        committed to volunteering our talents to make a difference. We unite to improve the way
-                        residents and local government experience Orlando.
-                    </p>
-
-
-
-                </section>
-                <img id="aboutUsImg" src="images/aboutUs.png">
-            </div>
+        <div class="split"><img src="images/aboutUs.png" /></div>
+    </section>
+    <section id="contact" class="info-section split-section">
+        <div class="split center">
+            <h1>CONTACT US</h1>
+            <p class="generalText">
+                We would love to hear from you.
+                <br />
+                <br />
+                <br />
+                E: hellocfo@gmail.com
+                <br />
+                P: 407-444-4444
+            </p>
         </div>
-        <!--ABOUT US SECTION END-->
-
-        <!--CONTACT US SECTION-->
-        <div class="info-sections"id="contactUsMainContainer">
-            <!-- for formatting only -->
-            <div id="contactUsContainer">
-                <section id="contactUsSection">
-                    <h1 class="boldText3">CONTACT US</h1>
-                    <p class="generalText">
-                        We would love to hear from you.
-                        <br>
-                        <br>
-                        <br>
-                        E: hellocfo@gmail.com
-                        <br>
-                        P: 407-444-4444
-                    </p>
-                </section>
-                <img id="contactUsImg" src="images/contactUs.png">
-            </div>
+        <div class="split"><img src="images/contactUs.png" /></div>
         </div>
-        <!--CONTACT US SECTION END-->
+    </section>
 
-        <!--FOOTER-->
-        <div>
-            <footer>
-                <div id="footerDiv">
-                    <i id="meetupIcon" class="fab fa-meetup"></i>
-                    <ul id="footerUl">
-                        <li>HOME</li>
-                        <li>EVENTS</li>
-                        <li>ABOUT US</li>
-                        <li><a></a>CONTACT</li>
-                    </ul>
-                </div>
-            </footer>
-            <!--FOOTER-->
+    <footer>
+        <ul>
+           <a href="https://www.meetup.com/Code-For-Orlando/" target="_blank"> <i id="meetupIcon" class="fab fa-meetup icon-meetup"></i></a>
+            <li><a href="http://google.com">HOME</a></li>
+            <li><a href="http://google.com">EVENTS</a></li>
+            <li><a href="http://google.com">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="http://google.com">CONDUCT</a></li>
 
+        </ul>
+    </footer>
 </body>
 
 </html>
