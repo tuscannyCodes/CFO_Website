@@ -6,7 +6,7 @@
 
 nav {
   height: 7em;
-  background-color: orange;
+  background-color: darkorange;
 }
 
 nav ul img {
@@ -57,7 +57,7 @@ img {
 }
 
 .info-section:nth-child(odd) {
-  background-color: orange;
+  background-color: darkorange;
   color: white;
 }
 
