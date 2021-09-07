@@ -41,7 +41,8 @@ img {
   height: 100%;
   width: 100%;
 }
-.generalText {
+.general-text {
+  padding: 1em;
   margin-left: 1em;
   font-size: 2em;
 }
@@ -95,4 +96,26 @@ footer ul {
   color: white;
   margin-top: 10px;
   cursor: pointer;
+}
+
+/*-------------MEDIA QUERIES-------------*/
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .general-text {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .split {
+    flex: 0%;
+  }
+
+  li {
+    display: none;
+    width: 0px;
+  }
 }
