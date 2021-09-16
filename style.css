@@ -28,3 +28,7 @@
 .primary-light-text-color {
   color: white;
 }
+
+.row {
+  min-height: 25rem;
+}
