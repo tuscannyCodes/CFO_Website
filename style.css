@@ -22,13 +22,16 @@
   color: #757575;
 }
 .divider-color {
-  border-color: #bdbdbd;
+  border-color: #424242;
 }
 
 .primary-light-text-color {
   color: white;
 }
+/* COLORS*/
+
+/* GENERAL STYLING */
 
 .row {
-  min-height: 25rem;
+  min-height: 50rem;
 }
