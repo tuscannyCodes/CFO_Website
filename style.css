@@ -32,6 +32,18 @@
 
 /* GENERAL STYLING */
 
-.row {
+/* .row {
   min-height: 50rem;
+} */
+
+.row-height {
+  min-height: 50rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.img-width-500 {
+  max-width: 500px;
 }
