@@ -1,114 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code for Orlando</title>
 
-<!--FONTS-->
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-<!--FONTS END-->
+<!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!--ICONS-->
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-<!--ICONS END-->
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
 
 <link rel="stylesheet" href="style.css">
 
+<title>Code For Orlando(BETA)</title>
 </head>
+
 <body>
-    <!--NAVIGATION SECTION-->
-        <nav id="mainNavigation"> 
-            <img id="logo"src="images/CFO_logo.png">
-            <ul id="headerUl">
-                <li class="links">HOME</li>
-                <li class="links">EVENTS</li>
-                <li class="links">ABOUT US</li>
-                <li class="links">CONTACT</li>
-            </ul>
-        </nav>
-    <!--NAVIGATION SECTION END-->
-        
-<!--HERO SECTION-->
-    <section id= "heroTextMainContainer"> <!-- for formatting only -->
-        <div id="heroTextContainer">
-            <h1 class="heroText"> < A community searching for 
-            technological solutions to social challenges > </h1>
+    <!-- NAV SECTION -->
+    <nav class="navbar navbar-expand-lg navbar-dark dark-primary-color">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/CFO_logo.png" width="120" height="40" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">CODE</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">EVENTS</a>
+                    </li>
 
-<img class= "characters" src="images/person2_Sketch.png">
+                </ul>
+            </div>
         </div>
-</section>
-<!--HERO SECTION END-->
+    </nav>
+    <!-- NAV SECTION END -->
 
-<!--EVENTS SECTION-->
-<div id="eventsMainContainer"> <!-- for formatting only -->
-<div id="eventsContainer">
-    <section id="eventsSection">
-    <h1 class="boldText">EVENTS</h1>
-        <p class="generalText">
-            Meeting with local developers (or anyone interested in web develoment) is an essiential part of what makes us special. We cherish community, and enjoy fostering a unique culture of creatives, developers and individuals interested in tech. Join us on Meetup for upcoming events and online meetings.    
-        </p>
-    </section>
-    <img id="eventsImg" src="images/events.png">
-</div>
-<!--EVENTS SECTION END-->
+<!-- NOTES -->
+<!--1. Add meetup capability inside events   section.
+    2. Add meetup button to join at top because of importance --> 
+<!--3. incorperate date for dynamic time change -->
+<!-- NOTES -->
 
-<!--ABOUT US SECTION-->
-<div id="aboutUsMainContainer"> <!-- for formatting only -->
-    
-<div id="aboutUsContainer">
-    <section id="aboutUsSection">
-       <h1 class="boldText2">ABOUT US</h1>
-        <p class="generalText2">
-            Code for Orlando, a local Code for America brigade, brings the community together to improve Orlando through technology. We are a group of “civic hackers” from various disciplines who are committed to volunteering our talents to make a difference. We unite to improve the way residents and local government experience Orlando.
-        </p> 
-        
-        
-       
-    </section>
-    <img id="aboutUsImg" src="images/aboutUs.png">
-</div>
-</div>
-<!--ABOUT US SECTION END-->
 
-<!--CONTACT US SECTION-->
-<div id="contactUsMainContainer"> <!-- for formatting only -->
-    <div id="contactUsContainer">
-        <section id="contactUsSection">
-        <h1 class="boldText3">CONTACT US</h1>
-            <p class="generalText">
-                We would love to hear from you.
-                <br>
-                <br>
-                <br>
-                 E: hellocfo@gmail.com
-                 <br>
-                 P: 407-444-4444
-            </p>
-        </section>
-        <img id="contactUsImg" src="images/contactUs.png">
+    <!-- HERO SECTION -->
+    <div class="container-fluid">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row row-height flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="images/person2_Sketch.png" class="d-block mx-lg-auto img-fluid w-50"
+                        alt="Bootstrap Themes" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1> 
+                    <!-- add content here for hero header -->
+                    <p class="lead">Meeting with local developers (or anyone interested in web develoment)
+                        is an essiential part of what makes us special. We cherish community,
+                        and enjoy fostering a unique culture of creatives, developers and
+                        individuals interested in tech. Join us on Meetup for upcoming events
+                        and online meetings.</p>
+                    <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                </div> -->
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-    <!--CONTACT US SECTION END-->
+    <!-- HERO SECTION END -->
 
-<!--FOOTER-->
-<div>
-<footer>
-    <div id="footerDiv">
-    <i id="meetupIcon" class="fab fa-meetup"></i>
-    <ul id="footerUl">
-        <li>HOME</li>
-        <li>EVENTS</li>
-        <li>ABOUT US</li>
-        <li>CONTACT</li>
-    </ul>
+    <!-- CONTENT SECTIONS -->
+    <div class="container-fluid">
+        <div class="row row-height">
+            <div class="col-sm-6 pt-0 justify-content-center text-content-align-center d-flex pb-0 flex-column text-white default-primary-color">
+                <img src="images/events.png" class="img-fluid mx-auto" alt="Bootstrap Themes"  loading="lazy" style="width: 500px;">
+            </div>
+            <div class="col-sm-6 pt-0 justify-content-center text-content-align-center d-flex pb-5 flex-column text-white default-primary-color">
+              <h1 class="display-1 fw-bold lh-1 mb-3 pt-3 text-white ">EVENTS</h1>
+              <p class="text-lg">Meeting with local developers (or anyone interested in web
+                  develoment) is an essiential part of what makes us special. We cherish community, and enjoy
+                  fostering a unique culture of creatives, developers and individuals interested in tech. Join us on
+                  Meetup for upcoming events and online meetings.</p>
+          </div>
+        </div>
+        <div class="row row-height">
+            <div class="col-md-6 pt-0 order-1 order-md-0 d-flex flex-column justify-content-center text-content-align-center ">
+                <h1 class="display-1 fw-bold lh-1 mb-0 m-5 pt-0">ABOUT US</h1>
+
+                <p class="text-lg m-5">Code for Orlando, a local Code for America brigade, brings the community together to improve Orlando
+                    through technology. We are a group of “civic hackers” from various disciplines who are committed to
+                    volunteering our talents to make a difference. We unite to improve the way residents and local
+                    government experience Orlando.</p>
+
+            </div>
+            <div class="col-sm-6 pt-0 justify-content-center text-content-align-center d-flex pb-5 flex-column text-white">
+                <img src="images/aboutUs.png" class="img-fluid mx-auto" alt="Bootstrap Themes"  loading="lazy" style="width: 500px;">
+            </div>
+        </div>
+
+        <div class="row row-height">
+        <div class="col-sm-6 pt-0 justify-content-center text-content-align-center d-flex  flex-column text-white default-primary-color">
+            <img src="images/contactUs.png" class="img-fluid mx-auto" alt="Bootstrap Themes"  loading="lazy" style="width: 500px;"
+                loading="lazy">
+        </div>
+        <div class="col-sm-6 default-primary-color d-flex flex-column justify-content-center text-content-align-center">
+            <h1 class="display-1 fw-bold lh-1 mb-3 primary-light-text-color pt-0">CONTACT US</h1>
+            <p class="lead primary-light-text-color text-lg">
+                <!-- all link to the meetup here with descrioption about joining the group-->
+
+
+
+                We would love to hear from you. <br>
+
+
+                E: hellocfo@gmail.com
+                P: 407-444-4444</p>
+        </div>
 </div>
+    </div>
+
+    </div>
+    <!-- CONTENT SECTION END -->
+    </div>
+
+<!-- FOOTER SECTION -->
+<footer class="py-5 bg-dark"> 
+    <!-- make container fluid. make row. make column-->
+    <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright © code for orlando 2021</p></div>
+    <!-- incorperate date for dynamic time change -->
 </footer>
-<!--FOOTER-->
-    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
